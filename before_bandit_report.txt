@@ -1,0 +1,39 @@
+LAB 5 — BEFORE FIXES: BANDIT REPORT
+===================================
+
+Tool: Bandit
+Target: employee_payroll_system.py
+
+1. B110 — Try, Except, Pass
+   Severity: Low
+   Description: Broad exception handling can hide errors.
+   CWE-703: https://cwe.mitre.org/data/definitions/703.html
+   Bandit Documentation: https://bandit.readthedocs.io/en/1.9.4/plugins/b110_try_except_pass.html
+
+2. B307 — Use of eval()
+   Severity: Medium
+   Description: eval() can execute potentially unsafe expressions.
+   Bandit Documentation: https://bandit.readthedocs.io/en/1.9.4/plugins/b307_eval.html
+
+3. B324 — Use of MD5
+   Severity: High
+   Description: MD5 is not recommended for security-sensitive hashing.
+   Bandit Documentation: https://bandit.readthedocs.io/en/1.9.4/plugins/b324_hashlib.html
+
+4. B311 — Use of random
+   Severity: Low
+   Description: The random module is not suitable for security-sensitive tokens.
+   Bandit Documentation: https://bandit.readthedocs.io/en/1.9.4/plugins/b311_random.html
+
+5. B605 — Shell Execution
+   Severity: High
+   Description: Shell execution may introduce command-injection risks.
+   CWE-78: https://cwe.mitre.org/data/definitions/78.html
+   Bandit Documentation: https://bandit.readthedocs.io/en/1.9.4/plugins/b605_start_process_with_a_shell.html
+
+SUMMARY
+-------
+High: 2
+Medium: 1
+Low: 2
+Total: 5 findings

@@ -1,0 +1,22 @@
+LAB 5 — BEFORE FIXES: PYLINT REPORT
+===================================
+
+Tool: Pylint
+Target: employee_payroll_system.py
+
+Original Score: 5.32/10
+
+Issues Identified:
+1. Missing final newline.
+2. Missing function docstrings.
+3. Incorrect function naming convention.
+4. Mutable default argument.
+5. Bare exception handling.
+6. Incorrect comparison with None.
+7. Unused variables and imports.
+8. Unsafe eval() usage.
+9. File handling and encoding concerns.
+
+Result:
+The original program required improvements in code quality,
+readability, maintainability, and security.x`

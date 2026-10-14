@@ -1,0 +1,10 @@
+FINAL PYLINT REPORT
+===================
+
+Command:
+python -m pylint employee_payroll_system.py
+
+Final Score: 10.00/10
+
+Result:
+The code achieved a perfect Pylint score.

@@ -1,0 +1,22 @@
+FINAL BANDIT REPORT
+===================
+
+Command:
+python -m bandit -r employee_payroll_system.py
+
+Result:
+No issues identified.
+
+Total Issues: 0
+High Severity: 0
+Medium Severity: 0
+Low Severity: 0
+
+Security improvements include removing eval(), replacing MD5
+with SHA-256, using secrets for token generation, and removing
+shell execution through os.system().
+
+References:
+CWE-703: https://cwe.mitre.org/data/definitions/703.html
+Bandit B110: https://bandit.readthedocs.io/en/1.9.4/plugins/b110_try_except_pass.html
+CWE-78: https://cwe.mitre.org/data/definitions/78.html

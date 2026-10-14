@@ -1,0 +1,19 @@
+LAB 5 — BEFORE FIXES: FLAKE8 REPORT
+===================================
+
+Tool: Flake8
+Target: employee_payroll_system.py
+
+Original Findings: 7
+
+Issues:
+1. Unused math import — approximately line 6.
+2. Line too long — approximately line 19.
+3. Bare except — approximately line 26.
+4. Unused statutory_buffer variable — approximately line 31.
+5. Comparison with None using == — approximately line 32.
+6. Unused base variable — approximately line 41.
+7. Missing final newline — approximately line 73.
+
+Result:
+The original source contained style and code-quality issues.

@@ -1,0 +1,8 @@
+FINAL FLAKE8 REPORT — FILL AFTER RUNNING
+========================================
+Command:
+flake8 employee_payroll_system.py
+
+Paste the actual final terminal output below this line after running the command on the final saved file.
+
+Previous observed result included W292 (missing final newline); rerun after saving the final newline fix.
