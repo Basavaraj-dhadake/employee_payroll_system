@@ -1,4 +1,4 @@
-# Lab 5: Static Code Analysis – Employee Payroll System
+#  Static Code Analysis – Employee Payroll System
 
 ## 1. Project Overview
 
